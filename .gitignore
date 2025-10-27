@@ -1,0 +1,27 @@
+# Secrets and sensitive files
+db-password.txt
+*.key
+*.crt
+*.pem
+
+# SSL certificates
+nginx/certs/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Docker volumes
+mysql-data/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
